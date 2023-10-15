@@ -1,12 +1,12 @@
 {
   "name": "selenium-testing",
   "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
+  "type": "commonjs",
+  "scripts": {
+    "test": "bunx mocha --no-timeouts"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "devDependencies": {
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "selenium-webdriver": "^4.14.0"
